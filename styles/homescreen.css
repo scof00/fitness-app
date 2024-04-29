@@ -10,11 +10,10 @@
 .navbar{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     background-color: #80ED99;
-    width: 52px;
-    height: 558px;
-    padding: 5px;
+    width: 62px;
+    height: 568px;
 }
 
 .greeting{
@@ -22,6 +21,7 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
+    width: 258px;
 }
 .navButton{
     height: 50px;
