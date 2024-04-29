@@ -1,0 +1,29 @@
+.screen{
+    width: 320px;
+    height: 568px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #80ED99;
+    width: 62px;
+    height: 932px;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color: #61D5EE;
+    border-radius: 10px;
+    border: none;
+}
