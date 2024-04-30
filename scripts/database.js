@@ -9,9 +9,9 @@ const database={
         {id: 2, class: "legs", name: "Squats", sets: 4, reps: 12, value: "135 Lbs", workoutId: 1},
         {id: 3, class: "back", name: "Deadlift", sets: 4, reps: 12, value: "135 Lbs", workoutId: 1},
         {id: 4, class: "triceps", name: "Tricep Extension", sets: 4, reps: 12, value: "80 Lbs", workoutId: 1},
-        {id: 5, class: "biceps", name: "Bicep Curl", sets: 4, reps: 12, value: "30 Lbs"},
-        {id: 6, class: "shoulders", name: "Shoulder Press", sets: 4, reps: 12, value: "30 Lbs"},
-        {id: 6, class: "abd", name:"Crunches", sets: 4, reps: 50, value: "", workoutId: 1}
+        {id: 5, class: "biceps", name: "Bicep Curl", sets: 4, reps: 12, value: "30 Lbs", workoutId: 1},
+        {id: 6, class: "shoulders", name: "Shoulder Press", sets: 4, reps: 12, value: "30 Lbs", workoutId: 1},
+        {id: 6, class: "abs", name:"Crunches", sets: 4, reps: 50, value: "", workoutId: 1}
     ],
     biometrics: [
         {id: 1, type: "Height", value: "5'10"},
@@ -21,4 +21,20 @@ const database={
     users:[
         {id: 1, name: "Seth", password: "asdfasdf", username:"SethFields1"}
     ]
+}
+
+export const getWorkouts = () => {
+    return database.workouts.map(workout => ({...workout}))
+}
+
+export const getExercises = () => {
+    return database.exercises.map(exercise => ({...exercise}))
+}
+
+export const getBiometrics = () => {
+    return database.biometrics.map(biometric => ({...biometric}))
+}
+
+export const getUsers = () => {
+    return database.users.map(user => ({...user}))
 }
