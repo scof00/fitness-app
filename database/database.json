@@ -6,7 +6,7 @@
         {"id": 4, "muscleId": "triceps", "name": "Tricep Extension", "sets": 4, "reps": 12, "value": "80 Lbs", "workoutId": 1},
         {"id": 5, "muscleId": "biceps", "name": "Bicep Curl", "sets": 4, "reps": 12, "value": "30 Lbs", "workoutId": 1},
         {"id": 6, "muscleId": "shoulders", "name": "Shoulder Press", "sets": 4, "reps": 12, "value": "30 Lbs", "workoutId": 1},
-        {"id": 6, "muscleId": "abs", "name":"Crunches", "sets": 4, "reps": 50, "value": "", "workoutId": 1}
+        {"id": 7, "muscleId": "abs", "name":"Crunches", "sets": 4, "reps": 50, "value": "", "workoutId": 1}
     ],
     "workouts":[
         {"id": 1, "name": "Full Body Day 1"},
@@ -14,7 +14,14 @@
         {"id": 3, "name": "Full Body Day 3"}
     ],
     "muscles":[
-
+        {"id": 1, "muscleGroup": "Biceps"},
+        {"id": 2, "muscleGroup": "Triceps"},
+        {"id": 3, "muscleGroup": "Chest"},
+        {"id": 4, "muscleGroup": "Legs"},
+        {"id": 5, "muscleGroup": "Shoulders"},
+        {"id": 6, "muscleGroup": "Abs"},
+        {"id": 7, "muscleGroup": "Back"},
+        {"id": 8, "muscleGroup": "Cardio & Others"}
     ],
     "biometrics":[
         {"id": 1, "type": "Height", "value": "5'10"},
