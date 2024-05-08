@@ -29,7 +29,7 @@ const render = async () =>{
     const workoutOptionsHTML = await workoutList()
 
     const compositedHTML=`${workoutOptionsHTML}
-    <p class="workouts">Create New Workout</p>
+    <a class="workouts" href="./createWorkouts.html">Create New Workout</a>
     <button>Begin Workout</button>
     `
 
