@@ -28,7 +28,10 @@ const container = document.querySelector("#container")
 const render = async () =>{
     const workoutOptionsHTML = await workoutList()
 
-    const compositedHTML=`${workoutOptionsHTML}`
+    const compositedHTML=`${workoutOptionsHTML}
+    <p class="workouts">Create New Workout</p>
+    <button>Begin Workout</button>
+    `
 
     container.innerHTML = compositedHTML
 }
