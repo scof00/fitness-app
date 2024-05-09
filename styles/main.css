@@ -51,3 +51,18 @@ button{
     border-radius: 10px;
     border: none;
 }
+
+input{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+    font-size: 18px;
+    padding-left: 5px;
+    margin: 2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
